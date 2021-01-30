@@ -1,0 +1,215 @@
+html {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+input {
+	border-width: 0px;
+	border: none;
+	height: 34px;
+	/* box-sizing: border-box; */
+}
+
+/* input:focus {
+	outline: none;
+} */
+
+#magnifyingGlass {
+	width: 20px;
+	height: 20px;
+	padding-top: 15px;
+}
+
+#googleMic {
+	width: 14px;
+	height: 22px;
+	padding-top: 15px;
+}
+
+.center {
+	display: block;
+	margin: auto;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.center .logo {
+	padding: 150px;
+	/* display: block; */
+}
+
+.center .buttons {
+	text-decoration: none;
+	height: 30px;
+}
+
+.div_search {
+	margin: 15px;
+}
+
+.center .div_search {
+	width: 600px;
+	border: 1px solid #dbdbdb;
+	border-radius: 200px;
+	height: 44px;
+	/* line-height: 20px; */
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.center .div_search .searchBar {
+	width: 87%;
+	height: 25px;
+}
+
+.center .div_search:hover {
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.center .buttons a:visited {
+	color: black;
+}
+
+.header {
+	float: right;
+	padding: 7px 20px;
+	height: 30px;
+	/* display: table-cell; */
+	/* vertical-align: middle; */
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	font-size: 13px;
+}
+
+.header a {
+	text-decoration: none;
+	/* display: table-cell; */
+	vertical-align: middle;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header a:visited {
+	color: black;
+}
+
+.header img {
+	/* display: table-cell; */
+	vertical-align: middle;
+	display: flex;
+	justify-content: space-between;
+}
+
+.gmail {
+	justify-content: space-between;
+	display: flex;
+}
+
+.images {
+	padding: 0px 15px 0px 15px;
+	display: flex;
+}
+
+.cuadritos {
+	/* padding: 0px 15px 0px 0px; */
+	display: flex;
+}
+
+.profile {
+	padding: 0px 0px 0px 15px;
+	display: flex;
+}
+
+.bentoMenu {
+	height: 15px;
+	width: 15px;
+}
+
+.profilePicture {
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+}
+
+.footer_1 {
+	position: fixed;
+	bottom: 40px;
+	background-color: #f2f2f2;
+	width: 100%;
+	padding: 0px 0px 0px 27px;
+	font-size: 14px;
+	left: 0;
+	border: 1px solid #dbdbdb;
+	color: #70757a;
+}
+.footer_2 {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	line-height: 40px;
+	background-color: #f2f2f2;
+	left: 0;
+}
+
+.footer_2 a {
+	padding: 0px 0px 0px 27px;
+	font-size: 14px;
+	color: #70757a;
+	text-decoration: none;
+}
+
+.footer_2 a:hover {
+	text-decoration: underline;
+}
+
+.fs2 {
+	line-height: 40px;
+	position: fixed;
+	bottom: 0;
+	right: 27px;
+}
+
+.language p {
+	display: inline-block;
+	font-size: 13px;
+}
+
+.language a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.language a:hover {
+	text-decoration: underline;
+}
+
+.buttons {
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.buttons a {
+	text-decoration: none;
+	background: #f8f9fa;
+	margin: 11px 4px;
+	padding: 0px 16px;
+}
+
+.buttons .buttonSearch {
+	padding: 10px 20px;
+}
+
+.buttons .buttonLucky {
+	padding: 10px 20px;
+}
+
+.buttons a:hover {
+	/* box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); */
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+}
